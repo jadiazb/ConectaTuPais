@@ -1,0 +1,11 @@
+// @import './components/Home/base';
+// @import './components/Home/main';
+@import './components/Menu/custom';
+@import './components/dashboard/style';
+@import './components/dashboard/blue';
+@import './components/dashboard/campaigns';
+@import './components/login';
+.container {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
