@@ -26,7 +26,7 @@ export default class Signup extends React.Component{
     });
   }
   render(){
-    if(!!Meteor.userId()){
+    if(!Meteor.userId()){
       return <Redirect to="/principal/mapa" />
     }
     else{
