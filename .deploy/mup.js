@@ -26,9 +26,12 @@ module.exports = {
     env: {
       // TODO: Change to your app's url
       // If you are using ssl, it needs to start with https://
-      ROOT_URL: 'http://conectatupais.com',
-      MONGO_URL: 'mongodb://mongodb/meteor',
-      MONGO_OPLOG_URL: 'mongodb://mongodb/local',
+      //ROOT_URL: 'http://conectatupais.com',
+      ROOT_URL: 'https://conectatupaisco.herokuapp.com',
+      //MONGO_URL: 'mongodb://mongodb/meteor',
+      MONGO_URL: 'mongodb://admin:Admin01@ds033116.mlab.com:33116/heroku_nm5fj9h0',
+      METEOR_SETTINGS="$(cat settings.json)"
+      //MONGO_OPLOG_URL: 'mongodb://mongodb/local',
     },
 
     docker: {
