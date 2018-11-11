@@ -134,7 +134,7 @@ export default class MinisterioForm extends React.Component{
               </div>
           </div>
           <div className="form-group">
-              <label className="col-md-12">{'Dirreción '}</label>
+              <label className="col-md-12">{'Dirección '}</label>
               <div className="col-md-12">
                   <input type="text" ref={'direc'+i} className="form-control form-control-line" value={this.state.Direcciones[i]} onChange={this.onDireccionChange.bind(this,i)}/>
               </div>
