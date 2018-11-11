@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../js/main.js';
-if(window.location.href == 'http://54.83.17.138/' || window.location.href == 'http://localhost:8080/' || window.location.href == 'http://localhost:3000/'){
+if(window.location.href == 'https://conectatupaisco.herokuapp.com/' || window.location.href == 'http://localhost:8080/' || window.location.href == 'http://localhost:3000/'){
   import '../client/styles/components/Home/_base.css';
   import '../client/styles/components/Home/_main.css';
 }
