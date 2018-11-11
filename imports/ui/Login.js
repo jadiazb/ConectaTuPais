@@ -34,7 +34,7 @@ export default class Login extends React.Component{
           <form id='loginForm' onSubmit={this.onLogin.bind(this)}>
             <div className='login-box'>
               <div className='login-logo'>
-                <a href="#"><img src="https://ejemplos.impaktu.com/sites/default/file/conectatupaisLogo.png" width="220"/></a>
+                <a href="/"><img src="https://ejemplos.impaktu.com/sites/default/file/conectatupaisLogo.png" width="220"/></a>
               </div>
               <div className='login-parent'>
                 <div className='login-form'>

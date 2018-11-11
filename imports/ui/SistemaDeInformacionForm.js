@@ -110,13 +110,13 @@ export default class SistemaDeInformacionForm extends React.Component{
                 </div>
             </div>
             <div className="form-group">
-                <label className="col-md-12">Resolucion</label>
+                <label className="col-md-12">Resolución</label>
                 <div className="col-md-12">
                     <input type="text" className="form-control form-control-line" value={this.state.Resolucion} onChange={this.onResolucionChange.bind(this)}/>
                 </div>
             </div>
             <div className="form-group">
-                <label className="col-md-12">Url Resolucion</label>
+                <label className="col-md-12">Url Resolución</label>
                 <div className="col-md-12">
                     <input type="text" className="form-control form-control-line" value={this.state.UrlResolucion} onChange={this.onUrlResolucionChange.bind(this)}/>
                 </div>

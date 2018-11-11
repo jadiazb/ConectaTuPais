@@ -35,7 +35,7 @@ export default class Signup extends React.Component{
           <form id='loginForm' onSubmit={this.onSignup.bind(this)}>
             <div className='login-box'>
               <div className='login-logo'>
-                <a href="#"><img src="https://ejemplos.impaktu.com/sites/default/file/conectatupaisLogo.png" width="220"/></a>
+                <a href="/"><img src="https://ejemplos.impaktu.com/sites/default/file/conectatupaisLogo.png" width="220"/></a>
               </div>
               <div className='login-parent'>
                 <div className='login-form'>
@@ -48,7 +48,7 @@ export default class Signup extends React.Component{
                     <input type='password' className='form-control' ref='password' name='password' placeholder='Contraseña:' required/>
                   </div>
                   <div>
-                    <Link to="/">Alrady have an account.</Link>
+                    <Link to="/">Already have an account.</Link>
                   </div>
                   <div className='row'>
                     <input type='submit' className='btn btn-info' name='btn_submit' value='Sign In'/>
