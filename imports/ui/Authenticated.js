@@ -4,7 +4,7 @@ import { Route, Redirect } from 'react-router-dom';
 
 const Authenticated = ({component: Component, ...rest}) => {
   return (
-    <Route {...rest} render={(props)=> !!Meteor.userId() === true ? (<Component {...props} />) : (<Redirect to='/Login' />)} />
+    <Route {...rest} render={(props)=> !!Meteor.userId() === true ? (<Component {...props} />) : (<Redirect to='/login' />)} />
   );
 }
 

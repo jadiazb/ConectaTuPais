@@ -48,7 +48,7 @@ export default class Login extends React.Component{
                   </div>
                   <div className='row'>
                     <div className='col-sm-6'>
-                      <Link to="/signup">Create account.</Link>
+                      <Link to="/signup">Crear una cuenta.</Link>
                     </div>
                     <div className='col-sm-6'>
                       <Link to='/reset'>Olvidó su contraseña ?</Link>

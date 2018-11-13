@@ -61,7 +61,7 @@ export default class Menu extends React.Component{
                     <a data-toggle="tooltip" data-placement="top" title="Lock">
                       <span className="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
                     </a>
-                    <a data-toggle="tooltip" data-placement="top" title="Logout" href="/login">
+                    <a data-toggle="tooltip" data-placement="top" title="Salir" href="/">
                       <span className="glyphicon glyphicon-off" aria-hidden="true"></span>
                     </a>
                   </div>
