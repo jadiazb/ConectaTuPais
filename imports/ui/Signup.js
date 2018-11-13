@@ -48,7 +48,7 @@ export default class Signup extends React.Component{
                     <input type='password' className='form-control' ref='password' name='password' placeholder='Contraseña:' required/>
                   </div>
                   <div>
-                    <Link to="/">Ya tienes una cuenta?</Link>
+                    <Link to="/login">Ya tienes una cuenta?</Link>
                   </div>
                   <div className='row'>
                     <input type='submit' className='btn btn-info' name='btn_submit' value='Sign In'/>
